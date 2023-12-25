@@ -1,0 +1,37 @@
+GET http://localhost:3000/products
+
+
+
+###
+GET http://localhost:3000/products/6589c392bb0442c4d9966aab
+
+###
+
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "Face Wash",
+    "quantity": 8,
+    "price": 10,
+    "image": "https://www.istockphoto.com/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays-gm1419410282-465774617?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fnature%2F&utm_term=nature"
+}
+
+
+###
+
+PUT http://localhost:3000/products/6588f7b10d9ed7c04bedf7ab
+Content-Type: application/json
+
+{
+    "quantity": 9
+}
+
+
+
+###
+
+
+DELETE http://localhost:3000/products/6588f7b10d9ed7c04bedf7ab
+
+
